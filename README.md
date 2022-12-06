@@ -2,6 +2,8 @@
 
 [Automatic Picture Transmission](https://www.sigidwiki.com/wiki/Automatic_Picture_Transmission_(APT)) (APT) is used to send weather satellite photos from the NOAA satellites (NOAA-15, NOAA-18, and NOAA-19) to ground stations. Two channels of pictures are taken, usually one visible light and one infrared, that are each 909px wide. These are then combined into an APT image along with sync, spacing, and telemetry information. This image is then scanned line-by-line, with each line taking 0.5 seconds to be transmitted. Each pixel has a brightness value between 0 (black) and 255 (white) that amplitude modulates a 2400Hz carrier wave. This modulated carrier is then transmitted at around 137MHz (the exact value depends on which satellite).
 
+This program takes two images and creates the composite image and the audio file containing the modulated carrier wave.
+
 ## How to install and use this program
 
 * Clone this repo via `git clone https://github.com/InduPri48/noaa-apt-encoder.git`.
