@@ -4,11 +4,11 @@ Automatic Picture Transmission (APT) is used to send weather satellite photos fr
 
 ## How to install and use this program
 
-Clone this repo via `git clone https://github.com/InduPri48/noaa-apt-encoder.git`
-Navigate inside the folder `noaa-apt-encoder`
-Run `python encode.py [videoA_filepath] [videoB_filepath] [audio_filepath]`
-The program will also create the combined APT image at the same location as the WAV audio file, also with the same name.
-The program can also resample the audio to a value of your choosing. Add the rate as the final argument after `[audio_filepath]`. Without this, it will output it at sample rate of 11025Hz.
+* Clone this repo via `git clone https://github.com/InduPri48/noaa-apt-encoder.git`.
+* Navigate inside the folder `noaa-apt-encoder`.
+* Run `python encode.py [videoA_filepath] [videoB_filepath] [audio_filepath]`.
+* The program will also create the combined APT image at the same location as the WAV audio file, also with the same name.
+* The program can also resample the audio to a value of your choosing. Add the rate as the final argument after `[audio_filepath]`. Without this, it will output it at sample rate of 11025Hz.
 
 ## Notes
 
